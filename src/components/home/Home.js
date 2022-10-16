@@ -1,9 +1,12 @@
-import "../home/home.css"
+import "../home/home.css";
+import Navbar from "../navbar/Navbar"
 import{
     Link
 } from "react-router-dom";
-import Destination from "../destination/Destination";
-function Home() {
+function Home(props) {
+    const handleClick=(id)=>{
+        // props.Data(id);
+    }
     return (
         <div id="wrapper">
             <div id="content">
@@ -14,7 +17,7 @@ function Home() {
                     because we'll give you a truly out of this world experience!</p>
             </div>
             <div className="explore">
-                <Link to="/destination"><button className="btn">EXPLORE</button></Link>
+                <Link to="/destination"><button className="btn" onClick={()=>handleClick(1)}>EXPLORE</button></Link>
             </div>
         </div>
     )

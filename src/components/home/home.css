@@ -13,6 +13,7 @@
     font-size: 1.3rem;
   }
   #content #text2 {
+    font-family: "Bellefair",serif;
     margin: 0rem;
     font-size: 7rem;
   }
@@ -30,7 +31,7 @@
     height: 12rem;
     width: 12rem;
     font-size: 2rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Bellefair",serif;
     border: none;
     border-radius: 50%;
     transition: 0.2s;
@@ -50,6 +51,7 @@
     text-align: center;
   }
   #content #text2 {
+    font-family: "Bellefair",serif;
     margin-top: 1rem;
     text-align: center;
     font-size: 5rem;
@@ -76,4 +78,5 @@
 .btn:hover {
   transform: scale(1.25);
   cursor: pointer;
+  filter: brightness(200%);
 }

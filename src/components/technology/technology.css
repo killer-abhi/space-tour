@@ -57,10 +57,14 @@
     #name{
         margin-top: 0rem;
         font-size: 3rem;
+        font-family: "Bellefair",serif;
+
     }
     #desc{
         margin-top: 0rem;
         font-size: 1.2rem;
+        color: #705959;
+
         text-align: justify;
     }
     .technopic{
@@ -137,13 +141,17 @@
         font-size: 1.5rem;
     }
     #name{
-        margin-top: -1rem;
-        font-size: 3rem;
+        margin-top: 0rem;
+        font-size: 2.4rem;
+        font-family: "Bellefair",serif;
+
     }
     #desc{
         margin-top: -2rem;
         font-size: 1.2rem;
         text-align: justify;
+        color: #705959;
+
     }
     .technopic{
         display: none;

@@ -24,10 +24,14 @@
     .left #name{
         margin-top: 0.5rem;
         font-size:3rem ;
+        font-family: "Bellefair",serif;
+
     }
     .left #info{
         margin-top: 2rem;
         font-size:1.2rem ;
+        color: #705959;
+
     }
     .pic-mob{
         display: none;
@@ -79,12 +83,15 @@
     .left #name{
         margin-top: 0.5rem;
         font-size:1.8rem ;
+        font-family: "Bellefair",serif;
+
     }
     .left #info{
         text-align: justify;
         width: 90%;
         margin-top: 1rem;
-        color: gray;
+        color: #705959;
+
         font-size:1rem ;
     }
     .picture{
