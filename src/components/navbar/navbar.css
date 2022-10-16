@@ -35,11 +35,11 @@
     .link{
         margin: auto 1rem;
         display: flex;
-        padding: 0rem 1rem;
+        padding: 0rem 0.5rem;
         align-items: center;
         height: 5rem;
         color: rgba(255, 255, 255, 0.849);
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         font-family: 'Barlow Condensed', sans-serif;
         text-decoration: none;
         transition: 0.3s;
@@ -90,6 +90,7 @@
     .overlay{
         margin-top:5rem;
         margin-right: 3rem;
+        z-index: 1000;
     }
     .link{
         /* width: 6rem; */

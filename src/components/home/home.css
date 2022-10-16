@@ -19,6 +19,8 @@
   .content #text3 {
     font-size: 1rem;
     color: gray;
+    width: 50%;
+    text-align: justify;
   }
   .explore {
     width: 80%;
@@ -56,7 +58,7 @@
   }
   .content #text3 {
     margin-top: 1rem;
-    text-align: left;
+    text-align: justify;
     font-size: 1rem;
     color: gray;
     padding: 0rem 1rem 0rem 2rem;

@@ -29,6 +29,7 @@
         width: 25rem;
         height: 25rem;
         border-radius: 50%;
+        z-index:-1;
         /* background-color: aqua; */
     }
     
@@ -55,6 +56,7 @@
         margin-top: 1rem;
         font-size: 1.2rem;
         width: 100%;
+        text-align: justify;
     }
 }
 @media (min-width:300px)and (max-width:600px) {
@@ -86,6 +88,7 @@
         width: 15rem;
         height: 15rem;
         border-radius: 50%;
+        z-index:-1;
     }
     img{
         width: 15rem;
@@ -151,6 +154,7 @@
 .active{
     box-shadow:inset 0px -3px 0px 0px white;
     transform: scaleX(1.2);
+    z-index:-1;
 }
 #hr2{
     margin-top: 1rem;

@@ -9,7 +9,7 @@ import { useEffect, useState } from "react";
 function Navbar(props) {
 
     const [isExpanded, setisExpanded] = useState(false);
-    const [isActive,setisActive]=useState([0,0,0,0]);
+    // const [isActive,setisActive]=useState([0,0,0,0]);
 
     function handleNavigation() {
         if (isExpanded) {
@@ -24,12 +24,6 @@ function Navbar(props) {
     function toggleActive(id) {
         // console.log(id)
         props.sendData(id);
-        if (isActive) {
-            setisActive(false);
-        }
-        else {
-            setisActive(true);
-        }
         
         var elements=document.getElementsByClassName("link");
         for(let i=0;i<4;i++){
@@ -57,10 +51,10 @@ function Navbar(props) {
                 </div>
                 <div className="nav-area">
                     <div className="navigate">
-                        <Link to="/home" className="link" id="page01" onClick={()=>toggleActive(0)}><strong> 00</strong> &nbsp; HOME</Link>
-                        <Link to="/destination" className="link" id="page02" onClick={()=>toggleActive(1)}><strong> 01</strong> &nbsp; DESTINATON</Link>
-                        <Link to="/crew" className="link" id="page03" onClick={()=>toggleActive(2)}><strong> 02</strong> &nbsp; CREW</Link>
-                        <Link to="/technology" className="link"id="page04" onClick={()=>toggleActive(3)}><strong> 03</strong> &nbsp; TECHNOLOGY</Link>
+                        <Link to="/home" className="link"  onClick={()=>toggleActive(0)}><strong> 00</strong> &nbsp; HOME</Link>
+                        <Link to="/destination" className="link" onClick={()=>toggleActive(1)}><strong> 01</strong> &nbsp; DESTINATON</Link>
+                        <Link to="/crew" className="link"  onClick={()=>toggleActive(2)}><strong> 02</strong> &nbsp; CREW</Link>
+                        <Link to="/technology" className="link" onClick={()=>toggleActive(3)}><strong> 03</strong> &nbsp; TECHNOLOGY</Link>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,122 @@
+@media (min-width:700px) {
+    .CrewCard{
+        display: flex;
+        width: 80%;
+        margin: auto;
+        color: white;
+        font-family: 'Barlow Condensed', sans-serif;
+    
+    }
+    .left{
+        margin: 1rem 0rem 0rem 7rem;
+        color: white;
+        width: 40%;
+    }
+    .header{
+        font-size: 2rem;
+    }
+    
+    .left #post{
+        margin-top: 4rem;
+        font-size:1.8rem ;
+        color: gray;
+    }
+    .left #name{
+        margin-top: 0.5rem;
+        font-size:3rem ;
+    }
+    .left #info{
+        margin-top: 2rem;
+        font-size:1.2rem ;
+    }
+    .pic-mob{
+        display: none;
+    }
+    .picture{
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        margin-left: 5rem;
+    }
+    .picture #pic img{
+        height: 100%;
+    }
+    .mob-slider{
+        display: none;
+    }
+    .pc-slider{
+        margin: 3rem 0rem 0rem 3rem;
+        display: flex;
+        justify-content: space-around;
+        width: 10rem;
+    }
+     
+}
+@media (min-width:300px)and (max-width:600px) {
+    .CrewCard{
+        margin-top: -6rem;
+    }
+    .left{
+        margin: 0rem auto;
+        color: white;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header{
+        font-size: 1.5rem;
+    }
+    .pic-mob{
+        display: block;
+        margin-top: 4rem;
+    }
+    .left #post{
+        margin-top: 2rem;
+        font-size:1rem ;
+        color: gray;
+    }
+    .left #name{
+        margin-top: 0.5rem;
+        font-size:1.8rem ;
+    }
+    .left #info{
+        text-align: justify;
+        width: 90%;
+        margin-top: 1rem;
+        color: gray;
+        font-size:1rem ;
+    }
+    .picture{
+        display: none;
+    }
+    .pc-slider{
+        display: none;
+    }
+    .mob-slider{
+        margin-top: 1rem;
+        display: flex;
+        justify-content: space-around;
+        width: 10rem;
+    }
+}
+
+.header #code{
+    color: gray;
+}
+.circle{
+    height: 1.2rem;
+    width: 1.2rem;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+.circle:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+.show{
+    transform: scale(1.5);
+    z-index:-1;
+}  
