@@ -1,6 +1,6 @@
 import "../home/home.css";
 import{
-    Link
+    Link, useLocation
 } from "react-router-dom";
 function Home() {
     return (
@@ -13,7 +13,7 @@ function Home() {
                     because we'll give you a truly out of this world experience!</p>
             </div>
             <div className="explore">
-                <Link to="space-tour/destination"><button className="btn" onClick={()=>handleClick(1)}>EXPLORE</button></Link>
+                <Link to="destination"><button className="btn">EXPLORE</button></Link>
             </div>
         </div>
     )
