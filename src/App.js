@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Navbar from "./components/navbar/Navbar";
 import Home from "./components/home/Home";
@@ -8,19 +7,13 @@ import Destination from "./components/destination/Destination";
 import React, { useState } from "react";
 import {
   BrowserRouter as Router,
-  Link,
   Route,
   Routes,
-  useLocation
 } from "react-router-dom";
 
 function App() {
 
-  const [childData, setChildData] = useState(0);
   const handleCallback = (childData) => {
-
-    setChildData(childData);
-
     let bg = document.getElementsByTagName("BODY")[0];
     bg.className = "bg-props";
     let classes = ["home-bg", "destination-bg", "crew-bg", "technology-bg"]
