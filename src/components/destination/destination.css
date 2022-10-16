@@ -1,0 +1,175 @@
+@media (min-width:700px) {
+    .destinations{
+        display: flex;
+        /* background-color: aqua; */
+        margin:auto;
+        color: aliceblue;
+        width: 70%;
+        font-family: 'Barlow Condensed', sans-serif;
+        justify-content: space-between;
+        height: 80vh;
+    }
+    .pic-wrapper{
+        width: 40%;
+    }
+    .pic-header{
+        margin-left: 3rem;
+        font-size: 1.8rem;
+    }
+    img{
+        height: 25rem;
+        width: 25rem;
+    }
+    .pic{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3rem;
+        margin-left: 2rem;
+        width: 25rem;
+        height: 25rem;
+        border-radius: 50%;
+        /* background-color: aqua; */
+    }
+    
+    .card{
+        width: 45%;
+    }
+    .navs{
+        margin-top: 4rem;
+        font-size: 1.8rem;
+        font-weight: 600;
+        display: flex;
+    }
+    .destLink{
+        margin-right: 1.5rem;
+        height: 3rem;
+        transition: 0.5s;
+    }
+    
+    .title{
+        font-size: 5rem;
+        font-weight: 900;
+    }
+    .content{
+        margin-top: 1rem;
+        font-size: 1.2rem;
+        width: 100%;
+    }
+}
+@media (min-width:300px)and (max-width:600px) {
+    .destinations{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        /* background-color: aqua; */
+        color: aliceblue;
+        /* width: 100%; */
+        font-family: 'Barlow Condensed', sans-serif;
+        /* height: 80vh; */
+    }
+    .pic-wrapper{
+        margin-top: -6rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .pic-header{
+        font-size: 1.8rem;
+    }
+    .pic{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3rem;
+        width: 15rem;
+        height: 15rem;
+        border-radius: 50%;
+    }
+    img{
+        width: 15rem;
+        height: 15rem;
+    }
+    .card{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navs{
+        margin-top: 4rem;
+        font-size: 1.5rem;
+        font-weight: 600;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .destLink{
+        height: 3rem;
+        transition: 0.5s;
+    }
+    
+    .title{
+        font-size: 7rem;
+        font-weight: 900;
+    }
+    .content{
+        margin-top: 1rem;
+        font-size: 1.2rem;
+        width: 100%;
+    }
+    .footer{
+        margin-top: 1rem;
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+}
+.pic-header #code{
+    font-size: 1.7rem;
+    color: gray;
+}
+.rotate{
+    animation: rotation 30s infinite linear;
+}
+@keyframes rotation {
+    from{
+        transform: rotate(0deg);
+    }   
+    to{
+        transform: rotate(360deg);
+    }
+    
+}
+.destLink:hover{
+    box-shadow:inset 0px -3px 0px 0px white;
+    cursor: pointer;
+    transform: scaleX(1.2);
+
+}
+.active{
+    box-shadow:inset 0px -3px 0px 0px white;
+    transform: scaleX(1.2);
+}
+#hr2{
+    margin-top: 1rem;
+    color: aliceblue;
+    width: 100%;
+    border: 2px solid gray;
+}
+.footer #subTitle{
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-align: center;
+}
+.footer #value{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.footer{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
