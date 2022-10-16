@@ -84,10 +84,10 @@
         /* position: absolute; */
         top: 0px;
         width: 35%;
-        background-color: rgba(128, 109, 109, 0.254);
-        backdrop-filter: blur(10px);
+        background-color: rgba(72, 60, 60, 0.254);
+        backdrop-filter: blur(40px);
         /* background-color: rgba(0,0,0,0.5);  */
-        /* z-index:2; */
+        z-index:2;
 
     }
     .mobile-nav #close{
