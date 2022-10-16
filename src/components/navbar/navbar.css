@@ -47,6 +47,13 @@
     .mobile-nav{
         display: none;
     }
+    #abhi{
+        font-size: 1.3rem;
+        font-family: 'Barlow Condensed', sans-serif;
+        color: gray;
+
+        margin-left: 5rem;
+    }
 }
 @media (min-width:350px) and (max-width:600px) {
     .navbar{
@@ -94,8 +101,8 @@
     }
     .link{
         /* width: 6rem; */
-        margin: 1rem 0rem;
-        font-size: 1rem;
+        margin: 2rem 0rem;
+        font-size: 1.3rem;
         display: flex;
         /* padding: 0rem 1rem; */
         text-decoration: none;
@@ -110,6 +117,13 @@
         height: 100vh;
         display: flex;
         justify-content: end;
+    }
+    #abhi{
+        font-size: 1.3rem;
+        font-family: 'Barlow Condensed', sans-serif;
+        color: aliceblue;
+
+        margin-top: 5rem;
     }
     
 }

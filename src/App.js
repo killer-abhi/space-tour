@@ -10,7 +10,8 @@ import {
   BrowserRouter as Router,
   Link,
   Route,
-  Routes
+  Routes,
+  useLocation
 } from "react-router-dom";
 
 function App() {

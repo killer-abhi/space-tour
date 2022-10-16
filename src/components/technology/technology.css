@@ -1,4 +1,4 @@
-@media (min-width:800px) {
+@media (min-width:610px) {
     .technology{
 
         width: 90%;
@@ -123,6 +123,7 @@
         justify-content: center;
         font-size: 1.5rem;
         transition: 0.3s;
+        z-index: -1;
     }
     .techno-card{
         margin-top: 5rem;
