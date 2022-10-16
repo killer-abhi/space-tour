@@ -35,11 +35,11 @@ function App() {
         <Navbar sendData={handleCallback} />
         <div>
           <Routes>
-            <Route path="/" element={<Home/>}/>
-            <Route path="/home" element={<Home />} />
-            <Route path="/destination" element={<Destination />} />
-            <Route path="/crew" element={<Crew />} />
-            <Route path="/technology" element={<Technology />} />
+            <Route path="space-tour/" element={<Home/>}/>
+            <Route path="space-tour/home" element={<Home />} />
+            <Route path="space-tour/destination" element={<Destination />} />
+            <Route path="space-tour/crew" element={<Crew />} />
+            <Route path="space-tour/technology" element={<Technology />} />
           </Routes>
         </div>
       </Router>
