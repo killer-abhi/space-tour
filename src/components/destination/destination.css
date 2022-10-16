@@ -2,7 +2,7 @@
     .destinations{
         display: flex;
         /* background-color: aqua; */
-        margin:auto;
+        margin: 5rem auto;
         color: aliceblue;
         width: 70%;
         font-family: 'Barlow Condensed', sans-serif;
@@ -71,7 +71,7 @@
         /* height: 80vh; */
     }
     .pic-wrapper{
-        margin-top: -6rem;
+        margin-top: 2rem;
         width: 100%;
         display: flex;
         align-items: center;

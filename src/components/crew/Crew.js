@@ -17,7 +17,7 @@ export default function Crew() {
     let members = document.getElementsByClassName("circle");
     let k=0;
     for (let i = 0; i < 8; i++) {
-      console.log(members);
+      // console.log(members);
       if(i>3){
         k=id+3;
       }

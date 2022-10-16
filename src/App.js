@@ -22,7 +22,7 @@ function App() {
 
     let bg = document.getElementsByTagName("BODY")[0];
     bg.className = "bg-props";
-    let classes = ["home", "destination", "crew", "technology"]
+    let classes = ["home-bg", "destination-bg", "crew-bg", "technology-bg"]
     let newclass = classes[childData];
     bg.classList.add(newclass);
   }

@@ -14,7 +14,7 @@ export default function Destination() {
   const toggleActive = (id) => {
     let elements = document.getElementsByClassName("destLink");
     for (let i = 0; i < 4; i++) {
-      console.log(elements);
+      // console.log(elements);
       if (i === id) {
         elements[i].classList.add("active");
         setDestination(Data[id]);
